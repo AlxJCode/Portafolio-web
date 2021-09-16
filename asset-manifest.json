@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portafolio-web/static/css/main.1a0095de.chunk.css",
-    "main.js": "/Portafolio-web/static/js/main.0d19b3e4.chunk.js",
-    "main.js.map": "/Portafolio-web/static/js/main.0d19b3e4.chunk.js.map",
+    "main.js": "/Portafolio-web/static/js/main.866efac2.chunk.js",
+    "main.js.map": "/Portafolio-web/static/js/main.866efac2.chunk.js.map",
     "runtime-main.js": "/Portafolio-web/static/js/runtime-main.8f11f21b.js",
     "runtime-main.js.map": "/Portafolio-web/static/js/runtime-main.8f11f21b.js.map",
     "static/css/2.28957e77.chunk.css": "/Portafolio-web/static/css/2.28957e77.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.28957e77.chunk.css.map": "/Portafolio-web/static/css/2.28957e77.chunk.css.map",
     "static/css/main.1a0095de.chunk.css.map": "/Portafolio-web/static/css/main.1a0095de.chunk.css.map",
     "static/js/2.8b9c602c.chunk.js.LICENSE.txt": "/Portafolio-web/static/js/2.8b9c602c.chunk.js.LICENSE.txt",
-    "static/media/ArroyoCV.bdcdf909.docx": "/Portafolio-web/static/media/ArroyoCV.bdcdf909.docx",
+    "static/media/ArroyoCV.4da59027.docx": "/Portafolio-web/static/media/ArroyoCV.4da59027.docx",
     "static/media/appgalery.2d49d8fe.png": "/Portafolio-web/static/media/appgalery.2d49d8fe.png",
     "static/media/aulavirtual.27e8771f.png": "/Portafolio-web/static/media/aulavirtual.27e8771f.png",
     "static/media/bg.c1e5b93a.svg": "/Portafolio-web/static/media/bg.c1e5b93a.svg",
@@ -26,6 +26,6 @@
     "static/css/2.28957e77.chunk.css",
     "static/js/2.8b9c602c.chunk.js",
     "static/css/main.1a0095de.chunk.css",
-    "static/js/main.0d19b3e4.chunk.js"
+    "static/js/main.866efac2.chunk.js"
   ]
 }
