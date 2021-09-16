@@ -1,0 +1,246 @@
+.home {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    
+}
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.home_left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 10vw;
+    padding-top: 20vh;
+}
+.line_1 {
+    font-size: 30px;
+    color: #fff;
+}
+.line_2 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 2.5vh 0;
+}
+.line_3 {
+    font-size: 30px;
+    color: #fff;
+}
+.line_4 {
+    color: #A67277;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 2.5vh 0;
+}
+.home_left div {
+    margin-top: 2.5vh;
+}
+.home_left a {
+    color: #fff;
+    border: 2px solid #A67277;
+    border-radius: 30px;
+    padding: 15px 30px;
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all .3s ease;
+    user-select: none;
+    background: #A67277;
+}
+.home_left a:hover {
+    background: transparent;
+    color: #A67277;
+    border: 2px solid #A67277;
+}
+
+
+.home_right {
+    position: relative;
+    width: 60%;
+    user-select: none;
+}
+.js_img {
+    width: 20%;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+    animation: AnimationJS 2s linear infinite;
+}
+.html_img {
+    width: 12%;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    animation: AnimationJS 2s linear infinite;
+}
+.css_img {
+    width: 12%;
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    animation: AnimationJS 2s linear infinite;
+}
+.node_img {
+    width: 12%;
+    position: absolute;
+    top: 18%;
+    left: 65%;
+    animation: AnimationJS 2s linear infinite;
+}
+.react_img {
+    width: 12%;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    animation: girarReact 4s linear infinite;
+}
+.mysql_img {
+    width: 12%;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    animation: AnimationJS 2s linear infinite;
+}
+.ts_img {
+    width: 12%;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    animation: AnimationJS 2s linear infinite;
+}
+.mongo_img {
+    width: 12%;
+    position: absolute;
+    top: 68%;
+    left: 20%;
+    animation: AnimationJS 2s linear infinite;
+}
+.django_img {
+    width: 12%;
+    position: absolute;
+    top: 72%;
+    left: 44%;
+    animation: AnimationJS 2s linear infinite;
+}
+.home_right_movil {
+    display: none;
+}
+
+@keyframes girarReact {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes AnimationJS {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .line_1 {
+        font-size: 22px;
+    }
+    .line_2 {
+        font-size: 3.5rem;
+    }
+    .line_3 {
+        font-size: 22px;
+    }
+    .line_4 {
+        font-size: 25px;
+    }
+    .home_left a {
+        font-size: 15px;
+        padding: 12px 25px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .line_1 {
+        font-size: 20px;
+    }
+    .line_2 {
+        font-size: 3rem;
+    }
+    .line_3 {
+        font-size: 20px;
+    }
+    .line_4 {
+        font-size: 22px;
+    }
+    .home_left a {
+        font-size: 15px;
+        padding: 12px 25px;
+    }
+    .js_img {
+        min-width: 100px;
+    }
+    .html_img, .css_img, .node_img, .react_img, .mongo_img, .mysql_img,
+    .django_img, .ts_img {
+        min-width: 70px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #bg {
+        display: none;
+    }
+    .home {
+        flex-direction: column;
+    }
+    .home_left{ 
+        background: #484059;
+        width: 100%;
+        padding: 30px 30px;
+        align-items: center;
+    }
+    .line_2 {
+        margin: 1.5vh 0;
+        text-align: center;
+    }
+    .line_4 {
+        margin: 1.5vh 0;
+    }
+    .home_left div {
+        margin-top: 20px;
+    }
+
+    .home_right {
+        display: none
+    }
+    .home_right_movil {
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        flex-grow: 1;
+        
+    }
+    .home_right_movil img {
+        width: 25%;
+        margin: 10px;
+        animation: AnimationJS 3s linear infinite;
+        user-select: none;
+    }
+}
