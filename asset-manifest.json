@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portafolio-web/static/css/main.1a0095de.chunk.css",
-    "main.js": "/Portafolio-web/static/js/main.866efac2.chunk.js",
-    "main.js.map": "/Portafolio-web/static/js/main.866efac2.chunk.js.map",
+    "main.css": "/Portafolio-web/static/css/main.be287044.chunk.css",
+    "main.js": "/Portafolio-web/static/js/main.fd382049.chunk.js",
+    "main.js.map": "/Portafolio-web/static/js/main.fd382049.chunk.js.map",
     "runtime-main.js": "/Portafolio-web/static/js/runtime-main.8f11f21b.js",
     "runtime-main.js.map": "/Portafolio-web/static/js/runtime-main.8f11f21b.js.map",
     "static/css/2.28957e77.chunk.css": "/Portafolio-web/static/css/2.28957e77.chunk.css",
@@ -12,20 +12,28 @@
     "static/js/3.9029ef8b.chunk.js.map": "/Portafolio-web/static/js/3.9029ef8b.chunk.js.map",
     "index.html": "/Portafolio-web/index.html",
     "static/css/2.28957e77.chunk.css.map": "/Portafolio-web/static/css/2.28957e77.chunk.css.map",
-    "static/css/main.1a0095de.chunk.css.map": "/Portafolio-web/static/css/main.1a0095de.chunk.css.map",
+    "static/css/main.be287044.chunk.css.map": "/Portafolio-web/static/css/main.be287044.chunk.css.map",
     "static/js/2.8b9c602c.chunk.js.LICENSE.txt": "/Portafolio-web/static/js/2.8b9c602c.chunk.js.LICENSE.txt",
-    "static/media/ArroyoCV.4da59027.docx": "/Portafolio-web/static/media/ArroyoCV.4da59027.docx",
+    "static/media/ArroyoCV.a9bed434.pdf": "/Portafolio-web/static/media/ArroyoCV.a9bed434.pdf",
     "static/media/appgalery.2d49d8fe.png": "/Portafolio-web/static/media/appgalery.2d49d8fe.png",
     "static/media/aulavirtual.27e8771f.png": "/Portafolio-web/static/media/aulavirtual.27e8771f.png",
     "static/media/bg.c1e5b93a.svg": "/Portafolio-web/static/media/bg.c1e5b93a.svg",
+    "static/media/css-logo.02d225c7.png": "/Portafolio-web/static/media/css-logo.02d225c7.png",
+    "static/media/django-logo.b2cbe0e2.png": "/Portafolio-web/static/media/django-logo.b2cbe0e2.png",
+    "static/media/html-logo.a92a549a.png": "/Portafolio-web/static/media/html-logo.a92a549a.png",
+    "static/media/js-logo.029db7d4.png": "/Portafolio-web/static/media/js-logo.029db7d4.png",
+    "static/media/mongo-logo.068e7f0d.png": "/Portafolio-web/static/media/mongo-logo.068e7f0d.png",
+    "static/media/node-logo.007e99f6.png": "/Portafolio-web/static/media/node-logo.007e99f6.png",
     "static/media/playlist.8532ae29.png": "/Portafolio-web/static/media/playlist.8532ae29.png",
-    "static/media/slick-theme.css": "/Portafolio-web/static/media/slick.c94f7671.ttf"
+    "static/media/programmer.df70b441.png": "/Portafolio-web/static/media/programmer.df70b441.png",
+    "static/media/slick-theme.css": "/Portafolio-web/static/media/slick.c94f7671.ttf",
+    "static/media/ts-logo.8e08c216.png": "/Portafolio-web/static/media/ts-logo.8e08c216.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8f11f21b.js",
     "static/css/2.28957e77.chunk.css",
     "static/js/2.8b9c602c.chunk.js",
-    "static/css/main.1a0095de.chunk.css",
-    "static/js/main.866efac2.chunk.js"
+    "static/css/main.be287044.chunk.css",
+    "static/js/main.fd382049.chunk.js"
   ]
 }
