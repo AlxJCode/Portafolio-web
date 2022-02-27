@@ -18,6 +18,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .item_galeria {
     width: 30%;

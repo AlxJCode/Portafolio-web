@@ -5,6 +5,15 @@ import Typed from 'react-typed';
 
 import bg from '../imgs/bg.svg';
 import logo from '../imgs/logo512.png';
+import JSLogo from '../imgs/js-logo.png';
+import HMTLLogo from '../imgs/html-logo.png';
+import CSSLogo from '../imgs/css-logo.png';
+import DjangoLogo from '../imgs/django-logo.png';
+import MongoLogo from '../imgs/mongo-logo.png';
+import MySQLLogo from '../imgs/mysql-logo.png';
+import TSLogo from '../imgs/ts-logo.png';
+import NodeLogo from '../imgs/node-logo.png';
+
 
 import gsap from 'gsap';
 
@@ -38,26 +47,26 @@ function Home() {
                 </div>
             </div>
             <div className="home_right">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="" className="js_img logos"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919827.png" alt="" className="html_img logos"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919826.png" alt="" className="css_img logos"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919825.png" alt="" className="node_img logos"/>
-                <img src={logo} alt="" className="react_img logos"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919836.png" alt="" className="mysql_img logos"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919832.png" alt="" className="ts_img logos"/>
-                <img src="http://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/f4a5b21d-66fa-4885-92bf-c4e81c06d916/Image/e5eee315a17de0d7f56117077eb71fa9/mongo.png" alt="" className="mongo_img logos"/>
-                <img src="https://1000marcas.net/wp-content/uploads/2021/06/Django-Logo.png" alt="" className="django_img logos"/>
+                <img src={JSLogo} alt="JS" className="js_img logos"/>
+                <img src={HMTLLogo} alt="HTML" className="html_img logos"/>
+                <img src={CSSLogo} alt="CSS" className="css_img logos"/>
+                <img src={NodeLogo} alt="NODE" className="node_img logos"/>
+                <img src={logo} alt="React" className="react_img logos"/>
+                <img src={MySQLLogo} alt="MySql" className="mysql_img logos"/>
+                <img src={TSLogo} alt="TS" className="ts_img logos"/>
+                <img src={MongoLogo} alt="MongoDB" className="mongo_img logos"/>
+                <img src={DjangoLogo} alt="Django" className="django_img logos"/>
             </div>
             <div className="home_right_movil">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="" className="js_img_m"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919827.png" alt="" className="html_img_m"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919826.png" alt="" className="css_img_m"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919825.png" alt="" className="node_img_m"/>
+                <img src={JSLogo} alt="JS"  className="js_img_m"/>
+                <img  src={HMTLLogo} alt="HTML" className="html_img_m"/>
+                <img src={CSSLogo} alt="CSS" className="css_img_m"/>
+                <img  src={NodeLogo} alt="NODE" className="node_img_m"/>
                 <img src={logo} alt="" className="react_img_m"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919836.png" alt="" className="mysql_img_m"/>
-                <img src="https://image.flaticon.com/icons/png/512/919/919832.png" alt="" className="ts_img_m"/>
-                <img src="http://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/f4a5b21d-66fa-4885-92bf-c4e81c06d916/Image/e5eee315a17de0d7f56117077eb71fa9/mongo.png" alt="" className="mongo_img_m"/>
-                <img src="https://1000marcas.net/wp-content/uploads/2021/06/Django-Logo.png" alt="" className="django_img_m"/>
+                <img  src={MySQLLogo} alt="MySql" className="mysql_img_m"/>
+                <img  src={TSLogo} alt="TS" className="ts_img_m"/>
+                <img  src={MongoLogo} alt="MongoDB" className="mongo_img_m"/>
+                <img  src={DjangoLogo} alt="Django" className="django_img_m"/>
             </div>
         </div>
     );

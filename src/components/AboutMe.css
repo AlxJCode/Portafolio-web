@@ -63,6 +63,7 @@
     padding: 15px 25px;
     border-radius: 30px;
     transition: all .3s ease;
+    margin-bottom: 15px;
 }
 .aboutMe_txt a:hover {
     background: #fff;
