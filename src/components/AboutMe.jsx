@@ -31,7 +31,7 @@ function AboutMe() {
                     </p>
                     <br />
                     <p className="aboutMe_txt2">
-                        Actualmente curso el 7to semestre de la carrera
+                        Actualmente curso el 9no semestre de la carrera
                         de Ingeniería de Sistemas en la UNTELS.
                         Me gusta mucho el desarrollo web y los gatos.
                         Si necesitas un sitio web puedes contar con mis servicios,
